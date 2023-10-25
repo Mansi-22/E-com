@@ -13,14 +13,14 @@ const SetupPage = () => {
       }
     }, [ isOpen, onOpen]);
 
-    return (
-      <div className="p-4">
-        {/* <Modal title="Test" description="Test desc" isOpen onClose={()=>{}}>
-        Children
-        </Modal>   */}
-        Root page
-      </div>
-    );
+    return null;
+    //   <div className="p-4">
+    //     {/* <Modal title="Test" description="Test desc" isOpen onClose={()=>{}}>
+    //     Children
+    //     </Modal>   */}
+    //     Root page
+    //   </div>
+    // );
 }
 
 export default SetupPage;
